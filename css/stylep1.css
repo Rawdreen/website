@@ -1,0 +1,98 @@
+@font-face{
+	font-family: Velocity;
+	src: url(fonts/velocity-font.ttf);
+	url(fonts/velocity-font.ttf) format("truetype");
+}
+
+body
+{
+	background-color: grey;
+}
+
+
+table th, td {
+	border: 0px solid white;
+    width: 20%; /* Ширина таблицы в процентах */
+    height: 70%;
+	background-color: grey;
+   }
+   
+p {
+
+	font-family: Velocity;
+	font-size: 24px;
+}
+
+   
+pre {
+	font-family: Calibri;
+	font-size: 24px;
+}
+
+
+.button {
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+	border: 0px solid #555555;
+	cursor: pointer;
+}
+
+
+.button1 {
+	background-color: #b8b8b8;
+    color: grey;
+    vertical-align: 70%;
+    width: 30%;
+    height: 100px;
+	font-size: 24px;
+	border-radius: 15px;
+}
+
+.button1:hover {
+    background-color: grey;
+    color: #ffae00;
+	font-size: 29px;
+	font-style: THE MAPLE ORIGINS;
+}
+   
+
+
+
+
+.buttonm {
+  border-radius: 4px;
+  background-color: #ffae00;
+  border: none;
+  color: #555555;
+  text-align: center;
+  font-size: 28px;
+  padding: 20px;
+  width: 200px;
+  transition: all 2s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.buttonm span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.4s;
+}
+
+.buttonm:hover span {
+
+  padding-right: 25px;
+}
+
+.buttonm:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+ 
+.buttonm:hover
+{
+	  transition: 0.4s;
+	 background-color: white;
+}
+

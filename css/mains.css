@@ -1,0 +1,127 @@
+
+body 
+{
+	 background-color: grey;
+}
+
+table {
+	border: 0px solid black;
+    width: 20%; /* Ширина таблицы в процентах */
+    height: 70%;
+   }
+   
+tr,td,th {
+border: 0px solid black;
+}
+
+   .col1 {
+    width: 100%; /* Ширина ячейки */
+    height: 20%;
+	text-align:center;
+   }
+
+p
+{
+font-family: Tahoma;
+font-size: 24px; 
+color: #555555;
+}
+
+pre
+{
+font-size: 18px; 
+color: white;
+allign: left;
+}
+
+.button {
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+	border: 0px solid #555555;
+	cursor: pointer;
+}
+
+
+.button1 {
+    background-color: white;
+    color: ffae00;
+    align: right; 
+    vertical-align: 50px;
+    width: 100%;
+    height: 100%;
+	font-size: 310%;
+}
+
+.button1:hover {
+    background-color: white;
+    color: #555555;
+	font-size: 320%;
+	font-style: THE MAPLE ORIGINS;
+}
+
+
+.button2 {
+    background-color: white;
+    color: #a3a3a3;
+    width: 200px;
+    height: 200px;
+}
+
+.button2:hover {
+    background-color: white;
+    color: white;
+    align: right; 
+    vertical-align: 50px;
+    border-radius: 50%;
+}
+
+
+.button3 {
+    background-color: ffae00;
+    color: #ffe71f;
+    width: 200px;
+    height: 200px;
+}
+
+.button3:hover {
+    background-color: white;
+    color: white;
+    align: right; 
+    vertical-align: 50px;
+    border-radius: 50%;
+}
+
+
+.button4 {
+    background-color: white;
+    color: #a3a3a3;
+    width: 200px;
+    height: 200px;
+}
+
+.button4:hover {
+    background-color: white;
+    color: white;
+    align: right; 
+    vertical-align: 50px;
+    border-radius: 50%;
+}
+
+
+.button5 {
+    background-color: #555555;
+    color: white;
+    align: right; 
+    vertical-align: 50px;
+    width: 200px;
+    height: 200px;
+}
+
+.button5:hover {
+    background-color: white;
+    color: #555555;
+    border: 0px solid #555555;
+    border-radius: 50%;
+}
+
+
